@@ -21,6 +21,6 @@ public class Ascend {
         
         // Print the numbers in ascending order
         System.out.println("Sorted numbers: " + smallest + " " + middle + " " + largest);
-    }
+      }
 	}
 
