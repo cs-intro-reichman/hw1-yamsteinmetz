@@ -16,7 +16,7 @@ public class Bill3 {
                 // round the number up
                 personalBill = Math.ceil(personalBill);
                     //print the data with the output
-                    System.out.println("Dear " + name1+ ", " + name2 + " ,and " + name3+ " pay " + personalBill + " Shekels each");
+                    System.out.println("Dear " + name3+ ", " + name2 + ", and " + name1+ ": pay " + personalBill + " Shekels each");
      
 
     }
