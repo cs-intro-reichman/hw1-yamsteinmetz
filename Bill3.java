@@ -7,16 +7,17 @@ public class Bill3 {
         String name2 = args[1];
         String name3 = args[2];
 
-            // create variable of total bill and Calculate personal bill
-            int totalBill;
-            totalBill = Integer.parseInt(args[3]); 
-            double personalBill;
-            personalBill = totalBill/ 3.0 ;
+        // create variable of total bill and Calculate personal bill
+        int totalBill;
+        totalBill = Integer.parseInt(args[3]); 
+        double personalBill;
+        personalBill = totalBill/ 3.0 ;
             
-                // round the number up
-                personalBill = Math.ceil(personalBill);
-                    //print the data with the output
-                    System.out.println("Dear " + name3+ ", " + name2 + ", and " + name1+ ": pay " + personalBill + " Shekels each");
+        // round the number up
+        personalBill = Math.ceil(personalBill);
+
+        //print the data with the output
+        System.out.println("Dear " + name3+ ", " + name2 + ", and " + name1+ ": pay " + personalBill + " Shekels each");
      
 
     }
