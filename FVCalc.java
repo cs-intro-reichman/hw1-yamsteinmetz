@@ -16,7 +16,7 @@ public class FVCalc {
 		int futureValueAsInt = (int) futureValue;
 
 			// the command for getting the required out put
-			System.out.println("After " + n + "years, " + currentValue + '$' + " saved at " + rate + "% will yield " + futureValueAsInt);
+			System.out.println("After " + n + " years, a " + currentValue + '$' + " saved at " + rate + "% will yield "+ '$' + futureValueAsInt);
 	
 	}
 }
