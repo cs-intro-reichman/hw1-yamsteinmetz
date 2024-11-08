@@ -14,7 +14,8 @@ public class TimeFormat {
 			else time = "AM";
 			if (minutes<10)
 				sMinutes= "0" + minutes;
-				else sMinutes = "0"+ minutes;
+				else
+			 	sMinutes = ""+ minutes;
 				System.out.println(hours + ":" + sMinutes+ " " + time);
 			
 		}
